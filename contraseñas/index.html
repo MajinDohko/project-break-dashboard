@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generador Contraseñas</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/contraseñas/css/styles.css">
 </head>
 <body>
-    Generador Contraseñas
+    <header class="header">
+        <a href="/index.html">Volver a Inicio</a>
+    </header>
+    <main class="main">
+        <div id="generador-contraseñas">
+            <input type="number" id="length" name="length" min="12" max="50" value="12">
+            <button type="button" id="botonpass">Generar Contraseña</button>
+            <div id="resultado-contraseña"></div>
+        </div>
+    </main>
     
-    <script src="/contraseñas/js/scripts.js"></script>
+    <script src="/js/scripts.js"></script>
+    <script src="/js/contraseñas.js"></script>
 </body>
 </html>

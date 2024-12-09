@@ -97,3 +97,30 @@ table {
 .lista-grados {
 	padding: 10px;
 }
+
+#reloj {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items:center;
+	max-width: 500px;
+	flex-wrap: wrap;
+	background-color: #ffffff75;
+	border: 3px solid #ffffff75;
+	border-radius: 10px;
+}
+
+#generador-contraseñas {
+    display: flex;
+	gap: 10px;
+	flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items:center;
+	width: 450px;
+	flex-wrap: wrap;
+	background-color: #ffffff75;
+	border: 3px solid #ffffff75;
+	border-radius: 10px;
+	color: white;
+}

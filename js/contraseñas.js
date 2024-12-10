@@ -25,7 +25,6 @@ function generarPassword(){
     </h2>
     <p>${nuevoPass}
     `;
-    console.log(nuevoPass);
 }
 
 //Creo el evento que me generará la contraseña al clickear en el botón

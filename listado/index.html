@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/listado/css/styles.css">
     <title>Listado de Links</title>
 </head>
 <body>
-    Listado Links
+    <header class="header">
+        <a href="/index.html">Volver a Inicio</a>
+    </header>
+    <main class="main">
+        <div class="listado">
+            <div class="titulo-enlaces">
+                <h2>Añade tu enlace favorito</h2>
+            </div>
+            <div class="formulario-enlaces">
+                <input type="text" id="nombre-enlace" placeholder="Nombre de tu enlace" required>
+                <input type="text" id="url-enlace" placeholder="Pon aquí la url">
+                <button id="boton-enlace" class="boton-enlace">Agregar Enlace</button>
+            </div>
+            <ul id="listado-enlaces" class="listado-enlaces">
+
+            </ul>
+        </div>
+    </main>
 
     <script src="/listado/js/scripts.js"></script>
 </body>

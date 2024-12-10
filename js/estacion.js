@@ -1,6 +1,5 @@
 document.body.style.backgroundImage = "url(../img/imagen-1.jpg)";
 const apiUrl = "https://api.weatherapi.com/v1/forecast.json?key=400f4a6fdaa14e73ae3170545240612&q=Badajoz&days=1&aqi=yes&alerts=yes";
-console.log(apiUrl);
 
 //Genero la asincronia llamando a la api
 const estacionMeteo = async () => {

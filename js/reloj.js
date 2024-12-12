@@ -35,11 +35,11 @@ function actualizarReloj(){
         frases = "Queda poco para el primer descanso, ¡ánimo!";
     } else if ((horas === 14 && minutos > 0) || (horas < 16 && minutos === 0)) {
         frases = "Descansa, prepara algo de comer y coge energía";
-    } else if ((horas === 16 && minutos > 0) || (horas < 18 && minutos === 0)) {
+    } else if ((horas === 16 && minutos > 0) || (horas <= 18 && minutos > 0)) {
         frases = "Buenas tardes, es hora del último empujón";
-    } else if ((horas === 18 && minutos > 0) || (horas < 21 && minutos === 0)) {
+    } else if ((horas === 18 && minutos > 0) || (horas < 21 && minutos > 0)) {
         frases = "Ya has hecho mucho por hoy, descansa y aprovecha la tarde.";
-    } else if ((horas === 21 && minutos > 0) || (horas < 23 && minutos === 0)) {
+    } else if ((horas === 21 && minutos > 0) || (horas < 23 && minutos > 0)) {
         frases = "No olvides cenar antes de irte a dormir.";
     } else {
         frases = "Es hora de irse a dormir, apaga todo y descansa";

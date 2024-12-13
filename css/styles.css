@@ -56,6 +56,8 @@ table {
 	gap: 20px;
 	flex-wrap: wrap;
 	align-items: center;
+	justify-content: center;
+	padding: 30px 0px;
 }
 
 #estacion {

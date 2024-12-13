@@ -7,10 +7,6 @@
     <title>Página Principal</title>
 </head>
 <body id="index">
-    <a href="/reloj/index.html">Reloj</a>
-    <a href="/estacion/index.html">Estación Meteorlógica</a>
-    <a href="/contraseñas/index.html">Contraseñas</a>
-    <a href="/listado/index.html">Listado Links</a>
     <main class="main">
         <section id="estacion-meteo">
             <div id="estacion">
@@ -20,10 +16,10 @@
         </section>
         <section id="reloj">
         </section>
-        <section class="generador-contraseñas">
-            <div id="generador-contraseñas">
+        <section id="contraseñas">
+            <div id="generador-contraseñas" class="generador-contraseñas">
                 <input type="number" id="length" name="length" min="12" max="50" value="12">
-                <button type="button" id="botonpass">Generar Contraseña</button>
+                <button type="button" id="botonpass" class="botonpass">Generar Contraseña</button>
                 <div id="resultado-contraseña"></div>
             </div>
         </section>
@@ -42,6 +38,23 @@
         </div>
 
         </section>
+        <footer class="footer">
+            <nav class="menu-navegacion">
+                <a href="/reloj/index.html">
+                    <img src="./img/reloj.png"/>
+                </a>
+                <a href="/estacion/index.html">
+                    <img src="./img/nube.png"/>
+                </a>
+                <a href="/contraseñas/index.html">
+                    <img src="./img/candado.png"/>
+                </a>
+                <a href="/listado/index.html">
+                    <img src="./img/enlace.png"/>
+                </a>
+            </nav>
+
+        </footer>
     </main>
     <script src="js/contraseñas.js"></script>
     <script src="js/estacion.js"></script>

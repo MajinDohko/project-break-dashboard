@@ -51,6 +51,13 @@ table {
 	border-spacing: 0;
 }
 
+.main {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
 #estacion {
     display: flex;
     align-content: center;
@@ -98,31 +105,40 @@ table {
 	padding: 10px;
 }
 
-#reloj {
+.reloj {
     display: flex;
+	flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items:center;
-	max-width: 500px;
+	width: 500px;
 	flex-wrap: wrap;
 	background-color: #ffffff75;
 	border: 3px solid #ffffff75;
 	border-radius: 10px;
+	padding: 10px 0px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
 }
 
-#generador-contraseñas {
-    display: flex;
+.generador-contraseñas {
+	display: flex;
 	gap: 10px;
 	flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items:center;
-	width: 450px;
+	width: 500px;
 	flex-wrap: wrap;
 	background-color: #ffffff75;
 	border: 3px solid #ffffff75;
 	border-radius: 10px;
 	color: white;
+	padding: 10px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: black;
 }
 
 .listado {
@@ -130,12 +146,32 @@ table {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    background-color: rgba(10, 10, 10, 0.5);
-    width: 450px;
+    background-color: #ffffff75;
+	border: 3px solid #ffffff75;
+	border-radius: 10px;
+    width: 500px;
     color: white;
+	padding: 10px 0px;
 }
 .formulario-enlaces {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.botonpass {
+	background-color: blueviolet;
+	height: 25px;
+	box-shadow: 0px 0px 3px 0px black;
+	color:white;
+}
+
+.menu-navegacion img{
+	filter: invert(1);
+	box-shadow: 1px 1px 6px 0px #000000;
+}
+
+.menu-navegacion {
+	display: flex;
+	gap: 10px;
 }

@@ -29,7 +29,7 @@ function actualizarReloj(){
         frases = "¡Es hora de dormir, deja de teclear y acuéstate!";
     } else if ((horas === 7 && minutos > 0) || (horas < 9 && minutos === 0)) {
         frases = "Prepárate, saca a la perra y tómate un café";
-    } else if ((horas === 9 && minutos > 0) || (horas < 12 && minutos === 0)) {
+    } else if ((horas > 9 && minutos > 0) || (horas < 12 && minutos === 0)) {
         frases = "Es hora de hacer código";
     } else if ((horas === 12 && minutos > 0) || (horas < 14 && minutos === 0)) {
         frases = "Queda poco para el primer descanso, ¡ánimo!";

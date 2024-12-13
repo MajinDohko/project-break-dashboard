@@ -42,7 +42,7 @@ botonEnlace.addEventListener('click', ()=>{
         const enlaces = obtenerEnlaces();
         
         guardarEnlaces(enlaces);
-        
+        enlaces.push(miEnlace);
         imprimirEnlace(nombre,url);
 
     nombreEnlace.value = "";

@@ -124,3 +124,18 @@ table {
 	border-radius: 10px;
 	color: white;
 }
+
+.listado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(10, 10, 10, 0.5);
+    width: 450px;
+    color: white;
+}
+.formulario-enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+.header{
+	width: 100%;
+}
+
 .main {
 	display: flex;
 	align-items: center;
@@ -62,16 +66,19 @@ body {
 	background-attachment: fixed;
 }
 
-#estacion {
+.estacion {
     display: flex;
     align-content: center;
     justify-content: center;
     align-items:center;
-	max-width: 500px;
+	width: 500px;
 	flex-wrap: wrap;
 	background-color: #ffffff75;
 	border: 3px solid #ffffff75;
 	border-radius: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 10px;
 }
 
 .tiempo-actual {
@@ -106,5 +113,11 @@ body {
 }
 
 .lista-grados {
+	padding: 10px;
+}
+
+.flecha {
+	width: 30px;
+	filter: invert(1);
 	padding: 10px;
 }

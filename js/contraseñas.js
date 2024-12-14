@@ -15,7 +15,7 @@ function generarPassword(){
         nuevoPass += password.charAt(Math.floor(Math.random()*password.length))
     }
     
-    imprimirPass.innerHTML = `<h2>Genera tu contraseña segura
+    imprimirPass.innerHTML = `<h2>Esta es tu contraseña segura
     </h2>
     <p>${nuevoPass}
     `;
